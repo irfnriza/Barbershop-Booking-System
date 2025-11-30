@@ -44,7 +44,7 @@ Membuat service dengan kombinasi decorators secara otomatis.
 
 ```
 uas-apl/
-├── main_refactored.py          # Entry point aplikasi
+├── main.py          # Entry point aplikasi
 ├── barbershop_data.json        # Data persistence (auto-generated)
 │
 ├── models/                     # Domain Models
@@ -90,7 +90,7 @@ pip install streamlit
 ### Menjalankan Aplikasi
 ```bash
 cd uas-apl
-streamlit run main_refactored.py
+streamlit run main.py
 ```
 
 Aplikasi akan terbuka di browser pada `http://localhost:8501`
